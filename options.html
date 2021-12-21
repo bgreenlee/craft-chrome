@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+        <div>
+            <legend>Default Document URL</legend>
+            <img src="/images/copy-deeplink.png" class="copy-deeplink">
+            <p class="helptext">
+                The Deeplink URL for the Craft document you'd like to append to.
+                You can get this by going to the document in Craft, clicking on
+                the Share (not Actions!) menu on the right, and selecting Copy Deeplink.
+            </p>
+            <label for="url">URL:</label>
+            <input type="text" id="url" name="url" size="40">
+            <div id="urlError" class="error"></div>
+        </div>
+        <div class="button update">
+            <button type="button" id="updateButton">Save</button>
+        </div>
+        <div id="message" class="message"></div>
+    </form>
+  </body>
+  <script src="options.js"></script>
+</html>
