@@ -1,12 +1,12 @@
 {
     "name": "Add Page to Craft",
     "description": "Adds the current page to the end of a document in Craft",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage", "tabs", "activeTab"],
+    "permissions": ["storage", "activeTab"],
     "action": {
         "default_title": "Add page to Craft",
         "default_icon": {
